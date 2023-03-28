@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PublishEventsController {
   @RequestMapping("/publishEvent")
   public String greeting() {
-    return "Event published successfully";
+    return "Application deployed successfully on Azure";
   }
 
 }
